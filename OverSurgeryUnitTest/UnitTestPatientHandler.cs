@@ -20,7 +20,7 @@ namespace OverSurgeryUnitTest
 
             PatientHandler pHandler = new PatientHandler();
             int response2           = pHandler.addNewPatient( dbC.getConnection() , patient );
-            Assert.IsNotNull( response2 );
+            //Assert.IsNotNull( response2 );
         }
     }
 }
