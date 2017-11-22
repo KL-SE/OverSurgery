@@ -1,5 +1,4 @@
-﻿
-namespace OverSurgery
+﻿namespace OverSurgery
 {
     public class Patient
     {

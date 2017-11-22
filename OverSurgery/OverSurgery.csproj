@@ -44,6 +44,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Appointment.cs" />
+    <Compile Include="AppointmentHandler.cs" />
+    <Compile Include="MedicationHandler.cs" />
+    <Compile Include="ReceptionistHandler.cs" />
+    <Compile Include="PrescriptionHandler.cs" />
+    <Compile Include="TestResultHandler.cs" />
+    <Compile Include="Medication.cs" />
+    <Compile Include="Prescription.cs" />
+    <Compile Include="TestResult.cs" />
+    <Compile Include="Receptionist.cs" />
     <Compile Include="GeneralPractitioner.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="GPHandler.cs" />

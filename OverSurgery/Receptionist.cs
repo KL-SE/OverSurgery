@@ -2,7 +2,7 @@
 
 namespace OverSurgery
 {
-    public class GeneralPractitioner
+    public class Receptionist
     {
         int id;
         string name;

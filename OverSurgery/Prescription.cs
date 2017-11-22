@@ -1,15 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace OverSurgery
 {
-    public class GeneralPractitioner
+    public class Prescription
     {
         int id;
-        string name;
-        int status;
-        DateTime dateJoined;
-        string loginName;
-        string password;
+        GeneralPractitioner gp;
+        Patient patient;
+        DateTime prescribed;
+        DateTime expires;
+        List<Medication> medications;
 
         public int Id
         {
@@ -24,68 +25,68 @@ namespace OverSurgery
             }
         }
 
-        public string Name
+        public GeneralPractitioner Gp
         {
             get
             {
-                return name;
+                return gp;
             }
 
             set
             {
-                name = value;
+                gp = value;
             }
         }
 
-        public int Status
+        public Patient Patient
         {
             get
             {
-                return status;
+                return patient;
             }
 
             set
             {
-                status = value;
+                patient = value;
             }
         }
 
-        public DateTime DateJoined
+        public DateTime Prescribed
         {
             get
             {
-                return dateJoined;
+                return prescribed;
             }
 
             set
             {
-                dateJoined = value;
+                prescribed = value;
             }
         }
 
-        public string LoginName
+        public DateTime Expires
         {
             get
             {
-                return loginName;
+                return expires;
             }
 
             set
             {
-                loginName = value;
+                expires = value;
             }
         }
 
-        public string Password
+        public List<Medication> Medications
         {
             get
             {
-                return password;
+                return medications;
             }
 
             set
             {
-                password = value;
+                medications = value;
             }
         }
     }
